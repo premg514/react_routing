@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Videos from "./components/Videos";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Images from "./pages/Images";
 function App() {
   let videos = [
     {
@@ -28,8 +29,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/image/:url" element={<Images/>}/>
+          <Route path="/contact/:ph" element={<Contact />} />
+          <Route path="/about/name" element={<About />} />
         </Routes>
       </BrowserRouter>
     </div>
