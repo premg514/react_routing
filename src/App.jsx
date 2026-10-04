@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Videos from "./components/Videos";
+import Videos from "./components/Video";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Images from "./pages/Images";
 function App() {
@@ -29,8 +29,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/image/:url" element={<Images/>}/>
+          <Route path="/image/:url" element={<Images />} />
           <Route path="/contact/:ph" element={<Contact />} />
+          <Route path="/videos" element={<Videos />} />
           <Route path="/about/name" element={<About />} />
         </Routes>
       </BrowserRouter>

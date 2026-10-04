@@ -1,0 +1,11 @@
+//How to create ReactApp
+//Functional Components
+//Reusable Components
+//Map method
+//Routing (multiple pages and navigate)
+
+MONDAY;
+//HOOKS, ASYNC FUNCTIONS AND FETCH METHOD
+//How to call realtime data and show in WEB APP
+//Multiple pages
+//CSS proper
