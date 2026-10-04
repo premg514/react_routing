@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    font-size: 8x;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
